@@ -5,17 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="icon" href="assests/gallery icon.png">
     <title>Products</title>
-<link rel="stylesheet" href="CSS/Style.css">
+ <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <h1>Products offered at PrimeHaven</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi exercitationem expedita eveniet inventore, laborum cum cupiditate. Cum quis, necessitatibus reprehenderit iusto nisi natus repellendus nihil cumque est cupiditate, sint officiis.
 Soluta natus aperiam exercitationem nobis minima? Sequi ducimus eum odio minima eaque maiores, veritatis non voluptate? Rerum, laborum? Tenetur veniam suscipit iure maxime repudiandae pariatur quas excepturi nemo ipsam possimus.</p>
- <img src="assests/toy 1.webp" alt="">   
- <img src="assests/toy2.webp" alt="">
- <img src="assests/toy3.webp" alt="">
- <img src="assests/toy4.webp" alt="">
- <img src="assests/toy5.webp" alt="">
-<img src="assests/oty6.jpeg" alt="">
+<br><br>
+
+
+
+<div id="carousel" class="carousel bg-black" data-bs-ride="carousel">
+ <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button><button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+ </div>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="assests/image copy 9.png" class="d-block mx-auto" style="width: 400px;" alt="">
+        <div class="carousel-caption">
+            <h4>Google</h4>
+            <p>Offers only the best</p>
+        </div>
+    </div>
+       <div class="carousel-item ">
+        <img src="assests/image copy 7.png" class="d-block mx-auto" style="width: auto; height:  400px;" alt="">
+        <div class="carousel-caption">
+            <h4>JBL</h4>
+            <p>Connecting with every wave</p>
+        </div>
+    </div>
+       <div class="carousel-item">
+        <img src="assests/image copy 10.png" class="d-block mx-auto" style="width: auto; height: 400px;" alt="">
+        <div class="carousel-caption">
+            <h4>Macbook</h4>
+            <p>Best for all programs</p>
+        </div>
+    </div>
+    
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+ <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
 </body>
 </html>
